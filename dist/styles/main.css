@@ -1,0 +1,129 @@
+body {
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #f5f8fa; }
+
+#main {
+  padding-top: 50px;
+  height: calc(100% - 50px);
+  color: #fff; }
+  #main > .container-fluid {
+    height: 100%; }
+  #main h1 {
+    font-size: 38px;
+    margin-bottom: 30px;
+    font-weight: 700; }
+  #main p {
+    font-size: 21px; }
+
+.signin > input {
+  width: 70%; }
+
+.signin > button {
+  width: 25%; }
+
+.signup > button {
+  margin-top: 15px; }
+
+#index {
+  background: transparent url("../images/welcome_image.jpg") no-repeat;
+  background-size: cover; }
+
+#feed {
+  margin-top: 10px; }
+
+.btn {
+  border: none;
+  height: 34px;
+  font-weight: bold;
+  border: none; }
+  .btn.btn-primary {
+    background-color: #28aae2; }
+    .btn.btn-primary:hover {
+      background-color: #1da1f2; }
+  .btn.btn-warning {
+    color: #000; }
+
+.navbar-brand > img {
+  width: 25px; }
+
+.navbar {
+  margin-bottom: 0; }
+  .navbar.navbar-default {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 0;
+    background: #fff; }
+    .navbar.navbar-default a:hover {
+      border-bottom: 5px solid #28aae2;
+      transition: all .15s ease-in-out; }
+    .navbar.navbar-default .navbar-brand {
+      margin-left: 0; }
+
+.panel {
+  overflow: hidden; }
+  .panel > .panel-body.user-content, .panel > .user-content.panel-heading, .panel > .user-content.panel-tweet {
+    padding-top: 0; }
+    .panel > .panel-body.user-content .user-name, .panel > .user-content.panel-heading .user-name, .panel > .user-content.panel-tweet .user-name {
+      font-weight: bold;
+      color: #000; }
+      .panel > .panel-body.user-content .user-name > a, .panel > .user-content.panel-heading .user-name > a, .panel > .user-content.panel-tweet .user-name > a {
+        color: inherit; }
+    .panel > .panel-body.user-content .stats-info, .panel > .user-content.panel-heading .stats-info, .panel > .user-content.panel-tweet .stats-info {
+      margin-top: 10px; }
+      .panel > .panel-body.user-content .stats-info > h4, .panel > .user-content.panel-heading .stats-info > h4, .panel > .user-content.panel-tweet .stats-info > h4 {
+        margin-top: 0; }
+  .panel > .panel-body > .user-image, .panel > .panel-heading > .user-image, .panel > .panel-tweet > .user-image {
+    margin-top: -30px;
+    padding-left: 0; }
+    .panel > .panel-body > .user-image > img, .panel > .panel-heading > .user-image > img, .panel > .panel-tweet > .user-image > img {
+      border: 2px solid #fff;
+      border-radius: 7px; }
+  .panel > .panel-body .new-tweet-user-image, .panel > .panel-heading .new-tweet-user-image, .panel > .panel-tweet .new-tweet-user-image {
+    height: 34px;
+    border-radius: 7px; }
+  .panel > .panel-heading, .panel > .panel-tweet {
+    overflow: hidden; }
+    .panel > .panel-heading.user-content, .panel > .panel-tweet.user-content {
+      padding: 15px; }
+      .panel > .panel-heading.user-content .user-name, .panel > .panel-tweet.user-content .user-name {
+        font-size: 14px;
+        margin-bottom: 0;
+        margin-top: 0; }
+    .panel > .panel-heading .tweet-user-image, .panel > .panel-tweet .tweet-user-image {
+      height: 48px;
+      border-radius: 7px; }
+    .panel > .panel-heading.full-image, .panel > .panel-tweet.full-image {
+      padding: 0; }
+      .panel > .panel-heading.full-image > img, .panel > .panel-tweet.full-image > img {
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px; }
+
+.tw-heart-box {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  display: inline-block; }
+
+.tw-heart {
+  background: url("../images/web_heart_animation.png") no-repeat 0 0;
+  display: inline-block;
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  left: 0;
+  top: 0; }
+
+[type="checkbox"]:checked + .tw-heart {
+  transition: background 0.8s steps(28);
+  background-position: -1400px 0; }
+
+[type="checkbox"] {
+  opacity: 0;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1; }

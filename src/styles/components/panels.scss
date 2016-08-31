@@ -1,0 +1,58 @@
+@import '../base';
+
+.panel {
+	overflow: hidden;
+	>.panel-body {
+		&.user-content {
+			padding-top: 0;	
+			.user-name {
+				font-weight: bold;
+				color: $black;
+				>a {
+					color: inherit;
+				}
+			}
+			.stats-info {
+				margin-top: 10px;
+				>h4 {
+					margin-top: 0;
+				}
+			}
+		}
+		>.user-image {
+			margin-top: -30px;
+			padding-left: 0;
+			>img {
+				border: 2px solid $white;
+				border-radius: 7px;
+			}
+		}
+		.new-tweet-user-image {
+			height: 34px;
+			border-radius: 7px;
+		}
+	}
+	>.panel-heading, >.panel-tweet {
+		overflow: hidden;
+		@extend .panel-body;
+		&.user-content {
+			padding: 15px;
+			.user-name {
+				font-size: 14px;
+				margin-bottom: 0;
+				margin-top: 0;
+			}
+		}
+		.tweet-user-image {
+			height: 48px;
+			border-radius: 7px;
+		}
+		&.full-image {
+			padding: 0;
+			>img {
+				border-top-left-radius: 3px;
+    			border-top-right-radius: 3px;
+			}
+		}
+	}
+}

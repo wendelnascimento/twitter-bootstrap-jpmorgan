@@ -1,0 +1,15 @@
+.navbar-brand > img {
+  width: 25px; }
+
+.navbar {
+  margin-bottom: 0; }
+  .navbar.navbar-default {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 0;
+    background: #fff; }
+    .navbar.navbar-default a:hover {
+      border-bottom: 5px solid #28aae2;
+      transition: all .15s ease-in-out; }
+    .navbar.navbar-default .navbar-brand {
+      margin-left: 0; }

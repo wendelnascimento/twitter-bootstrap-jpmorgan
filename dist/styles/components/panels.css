@@ -1,0 +1,38 @@
+.panel {
+  overflow: hidden; }
+  .panel > .panel-body.user-content, .panel > .user-content.panel-heading, .panel > .user-content.panel-tweet {
+    padding-top: 0; }
+    .panel > .panel-body.user-content .user-name, .panel > .user-content.panel-heading .user-name, .panel > .user-content.panel-tweet .user-name {
+      font-weight: bold;
+      color: #000; }
+      .panel > .panel-body.user-content .user-name > a, .panel > .user-content.panel-heading .user-name > a, .panel > .user-content.panel-tweet .user-name > a {
+        color: inherit; }
+    .panel > .panel-body.user-content .stats-info, .panel > .user-content.panel-heading .stats-info, .panel > .user-content.panel-tweet .stats-info {
+      margin-top: 10px; }
+      .panel > .panel-body.user-content .stats-info > h4, .panel > .user-content.panel-heading .stats-info > h4, .panel > .user-content.panel-tweet .stats-info > h4 {
+        margin-top: 0; }
+  .panel > .panel-body > .user-image, .panel > .panel-heading > .user-image, .panel > .panel-tweet > .user-image {
+    margin-top: -30px;
+    padding-left: 0; }
+    .panel > .panel-body > .user-image > img, .panel > .panel-heading > .user-image > img, .panel > .panel-tweet > .user-image > img {
+      border: 2px solid #fff;
+      border-radius: 7px; }
+  .panel > .panel-body .new-tweet-user-image, .panel > .panel-heading .new-tweet-user-image, .panel > .panel-tweet .new-tweet-user-image {
+    height: 34px;
+    border-radius: 7px; }
+  .panel > .panel-heading, .panel > .panel-tweet {
+    overflow: hidden; }
+    .panel > .panel-heading.user-content, .panel > .panel-tweet.user-content {
+      padding: 15px; }
+      .panel > .panel-heading.user-content .user-name, .panel > .panel-tweet.user-content .user-name {
+        font-size: 14px;
+        margin-bottom: 0;
+        margin-top: 0; }
+    .panel > .panel-heading .tweet-user-image, .panel > .panel-tweet .tweet-user-image {
+      height: 48px;
+      border-radius: 7px; }
+    .panel > .panel-heading.full-image, .panel > .panel-tweet.full-image {
+      padding: 0; }
+      .panel > .panel-heading.full-image > img, .panel > .panel-tweet.full-image > img {
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px; }

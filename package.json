@@ -1,0 +1,36 @@
+{
+  "name": "twitter-bootstrap",
+  "version": "1.0.0",
+  "description": "HTML e CSS do twitter para workshop do jpmorgan",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wendelnascimento/twitter-bootstrap-jpmorgan.git"
+  },
+  "author": "Wendel Nascimento",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wendelnascimento/twitter-bootstrap-jpmorgan/issues"
+  },
+  "homepage": "https://github.com/wendelnascimento/twitter-bootstrap-jpmorgan#readme",
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "browser-sync": "^2.14.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-cache": "^0.4.5",
+    "gulp-concat": "^2.6.0",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "node-sass": "^3.8.0",
+    "run-sequence": "^1.2.2",
+  }
+}

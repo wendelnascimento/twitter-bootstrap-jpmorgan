@@ -1,0 +1,17 @@
+@import '../base';
+
+.btn {
+	border: none;
+	height: 34px;
+	font-weight: bold;
+	border: none;
+	&.btn-primary {
+		background-color: $main-color;
+		&:hover {
+			background-color: #1da1f2;
+		}
+	}
+	&.btn-warning {
+		color: $black;
+	}
+}
